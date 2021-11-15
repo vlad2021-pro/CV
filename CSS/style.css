@@ -1,0 +1,72 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+}
+
+/* Main-section */
+
+li,
+.second-text {
+  color: #595959;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.curent-text {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 2.2;
+}
+.text-my-name {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: white;
+  margin: 40px auto;
+}
+
+.about-me,
+.work-education,
+.work-experience,
+.project-section {
+  margin: 40px 88px auto 40px;
+}
+.refs-project:hover,
+.refs-project:focus {
+  color: #1f62c6;
+}
+
+/* Sidebar-section */
+.sidebar-section {
+  background-color: #1e2939;
+  width: 370px;
+  padding: 40px 0;
+}
+.my-contacts {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 50px 0 0 20px;
+}
+.sidebar-title {
+  color: white;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.refs-contacts:hover,
+.refs-contacts:focus {
+  color: white;
+}
